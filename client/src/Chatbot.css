@@ -1,0 +1,96 @@
+/* Chatbot.css */
+
+.chatbot {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .chat {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #B7A57A;
+  }
+ 
+  .chat-messages {
+    padding: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+ 
+  .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 70%;
+  }
+ 
+  .user {
+    background-color: #39275B;
+    color: #fff;
+    align-self: flex-end;
+  }
+ 
+  .assistant {
+    background-color: #e5e5ea;
+    color: #000;
+    align-self: flex-start;
+  }
+ 
+  .chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+  }
+ 
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+ 
+  button {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: #B7A57A;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+ 
+  button:hover {
+    background-color: #39275B;
+  }
+ 
+  button:focus {
+    outline: none;
+  }
+
+  /* ... (your existing CSS) */
+
+.chatbot-title {
+    text-align: center;
+    background-color: #39275B;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+  }
+ 
+  .chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #39275B; /* Changed to desired color */
+    border-top: 1px solid #ccc;
+  }
+ 
+  /* ... (rest of your CSS) */

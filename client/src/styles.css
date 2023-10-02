@@ -1,0 +1,79 @@
+/* Add your custom CSS styles for the chat UI here */
+/* Example: */
+.chatbot {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .chat {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+  }
+ 
+  .chat-messages {
+    padding: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+ 
+  .message {
+    margin-bottom: 10px;
+    position: relative;
+  }
+ 
+  .loading {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+ 
+  .response {
+    background-color: #e5e5ea;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    position: relative;
+  }
+ 
+  .chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+  }
+ 
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+ 
+  button {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: #39275B;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+ 
+  button:hover {
+    background-color: #39275B;
+  }
+ 
+  button:focus {
+    outline: none;
+  }
+ 
