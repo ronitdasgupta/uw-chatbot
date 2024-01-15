@@ -12,7 +12,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Set up OpenAI API
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# openai.api_key = os.getenv("OPENAI_API_KEY")
+openai_api_key = os.environ.get("OPENAI_API_KEY")
 
 
 class DataSet:
