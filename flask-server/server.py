@@ -13,6 +13,9 @@ CORS(app)
 
 # Set up OpenAI API
 # openai.api_key = os.getenv("OPENAI_API_KEY")
+print("hello")
+print("OpenAI API Key:", os.environ.get("OPENAI_API_KEY"))
+print(os.environ)
 openai_api_key = os.environ.get("OPENAI_API_KEY")
 print("OpenAI API Key:", os.environ.get("OPENAI_API_KEY"))
 print(os.environ)
