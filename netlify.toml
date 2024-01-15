@@ -1,0 +1,14 @@
+# netlify.toml
+
+[build]
+  # Build command for the frontend (client)
+  command = "cd client && npm install && npm run build"
+  
+  # Publish directory for the frontend build output
+  publish = "client/build"
+
+[[redirects]]
+  # Redirects for client-side routing (adjust as needed)
+  from = "/*"
+  to = "/index.html"
+  status = 200
