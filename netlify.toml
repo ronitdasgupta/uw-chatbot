@@ -6,10 +6,12 @@
 
   # Publish directory for the frontend build output
   publish = "client/build"
-  base ="/"
 
   # Build command for the backend (Flask)
   functions = "flask-server/"
+
+  # Install Python dependencies
+  command = "pip3 install -r requirements.txt"
 
 [[redirects]]
   # Redirects for client-side routing (adjust as needed)
