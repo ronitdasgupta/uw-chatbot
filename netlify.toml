@@ -6,6 +6,7 @@
 
   # Publish directory for the frontend build output
   publish = "client/build"
+  base ="/"
 
   # Build command for the backend (Flask)
   functions = "flask-server/"
