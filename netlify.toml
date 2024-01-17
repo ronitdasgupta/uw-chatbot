@@ -3,9 +3,12 @@
 [build]
   # Build command for the frontend (client)
   command = "cd client && npm install && npm run build"
-  
+
   # Publish directory for the frontend build output
   publish = "client/build"
+
+  # Build command for the backend (Flask)
+  functions = "flask-server/"
 
 [[redirects]]
   # Redirects for client-side routing (adjust as needed)
