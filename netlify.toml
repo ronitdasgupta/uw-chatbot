@@ -10,8 +10,15 @@
   # Build command for the backend (Flask)
   functions = "flask-server/"
 
+  # Specify Python version and dependencies
+  [[plugins]]
+    package = "@netlify/plugin-python"
+    [plugins.inputs]
+      python_version = "3.8"
+      requirements = "requirements.txt"
+
 [[redirects]]
   # Redirects for client-side routing (adjust as needed)
   from = "/*"
-  to = "http://127.0.0.1:5000"
+  to = "/index.html"
   status = 200
