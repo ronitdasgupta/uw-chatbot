@@ -13,5 +13,5 @@
 [[redirects]]
   # Redirects for client-side routing (adjust as needed)
   from = "/*"
-  to = "/index.html"
+  to = "http://127.0.0.1:5000"
   status = 200
